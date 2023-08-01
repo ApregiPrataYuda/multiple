@@ -103,6 +103,14 @@
                 </li>
               </ul>
 
+              <ul class="nav nav-treeview ">
+                <li class="nav-item">
+                  <a style="color: RGB(245, 245, 245);" href="<?= site_url('Multiples') ?>" class="nav-link">
+                    <i class="far fa-stop-circle nav-icon"></i>
+                    <p style="color: RGB(245, 245, 245);">Multiples</p>
+                  </a>
+                </li>
+              </ul>
 
               
             </li>
