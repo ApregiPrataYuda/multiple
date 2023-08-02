@@ -73,7 +73,6 @@
                   <hr>
                 <button type="button" class="btn btn-primary">Save changes</button>
                 </form>
-                
               </div>
    
 
@@ -143,7 +142,13 @@
             var fieldHTML = '<div class="row fieldGroup">'+$(".fieldGroupCopy").html()+'</div>';
             $('body').find('.fieldGroup:last').after(fieldHTML);
         }else{
-            alert('Maximum '+maxGroup+' groups are allowed.');
+            // alert('Maximum '+maxGroup+' groups are allowed.');
+            Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Maximum '+maxGroup+' groups are allowed!'
+            
+            })
         }
     });
     
