@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="card-body">
-                <table class="table table-bordered" id="tabelPublic">
+                <table class="table table-bordered" id="tabelPublic"  style='border-collapse: collapse;'>
                   <thead>
                     <tr>
 
@@ -63,6 +63,7 @@
                   <?php 
        // User List
        foreach($row as $user){
+
          $id = $user['id'];
          $name = $user['name'];
          $description = $user['description'];
@@ -70,14 +71,13 @@
          echo "<tr>";
          echo "<td>
          <span class='edit' >".$name."</span>
-         <input type='text' class='txtedit form-control' data-id='".$id."' data-field='name' id='nametxt_".$id."' value='".$name."' >
+         <input type='text' class='txtedit' data-id='".$id."' data-field='name' id='nametxt_".$id."' value='".$name."' >
          </td>";
         
-
         
          echo "<td>
          <span class='edit' >".$description."</span>
-         <input type='text' class='txtedit form-control' data-id='".$id."' data-field='email' id='emailtxt_".$id."' value='".$description."' >
+         <input type='text' class='txtedit form-control' data-id='".$id."' data-field='description' id='emailtxt_".$id."' value='".$description."' >
          </td>";
          echo "</tr>";
        }

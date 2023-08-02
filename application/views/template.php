@@ -122,6 +122,15 @@
                 </li>
               </ul>
 
+              <ul class="nav nav-treeview ">
+                <li class="nav-item">
+                  <a style="color: RGB(245, 245, 245);" href="<?= site_url('Desain_multiple') ?>" class="nav-link">
+                    <i class="far fa-stop-circle nav-icon"></i>
+                    <p style="color: RGB(245, 245, 245);">desain Multiple</p>
+                  </a>
+                </li>
+              </ul>
+
               
             </li>
           </ul>
