@@ -95,7 +95,7 @@
             title: 'Oops...',
             text: 'There is no row available to delete!'
             })
-        return;
+        return;vvbb                                                                             
       }
       if(ele){
         //delete specific row
