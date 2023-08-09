@@ -22,6 +22,7 @@
 
   <link href="<?= base_url() ?>assets/backend/vendors/sweetalert2/sweetalert2.min.css" rel="stylesheet">
   <link href="<?= base_url() ?>assets/backend/vendors/sweetalert2/animate.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -133,6 +134,26 @@
 
               
             </li>
+
+
+            <li class="nav-item Active">
+              <a style="color: RGB(245, 245, 245);" href="<?= site_url('Select') ?>" class="nav-link">
+                <i class="nav-icon  fas fa-check"></i>
+                <p style="color: RGB(245, 245, 245);">
+                  Sample SELECT2
+                </p>
+              </a>
+            </li>
+
+
+            <li class="nav-item Active">
+              <a style="color: RGB(245, 245, 245);" href="<?= site_url('InvoicePage') ?>" class="nav-link">
+                <i class="nav-icon  fas fa-check"></i>
+                <p style="color: RGB(245, 245, 245);">
+                  invoice
+                </p>
+              </a>
+            </li>
           </ul>
           </li>
           </ul>
@@ -192,8 +213,10 @@
 
   <script src="<?= base_url() ?>assets/backend/vendors/sweetalert2/sweetalert2.min.js"></script>
   <script src="<?= base_url() ?>assets/backend/plugins/summernote/summernote-bs4.min.js"></script>
-
-
+  <!-- Select2 -->
+ <link rel="stylesheet" href="<?= base_url() ?>assets/backend/plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>assets/backend/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+  <script src="<?= base_url() ?>assets/backend/plugins/select2/js/select2.full.min.js"></script>
   <!-- Page specific script -->
 
 
