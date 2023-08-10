@@ -154,6 +154,16 @@
                 </p>
               </a>
             </li>
+
+
+            <li class="nav-item Active">
+              <a style="color: RGB(245, 245, 245);" href="<?= site_url('Cekongkir') ?>" class="nav-link">
+                <i class="nav-icon  fas fa-check"></i>
+                <p style="color: RGB(245, 245, 245);">
+                  Cek
+                </p>
+              </a>
+            </li>
           </ul>
           </li>
           </ul>
